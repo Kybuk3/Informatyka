@@ -12,7 +12,7 @@
             while($row = $result->fetch_assoc()) {
                 echo "nazwa: " . $row[" r.nazwa"]. " plywa w rzece " . $row["akwen"]. " " . $row["wojewodstwo"]
         $conn->close();}
-    }
+    }}
     function Skrypt1(){
         $conn = new mysqli($HOST, $USER, $PASSWORD, $BASED);
         $sql = "SELECT * FROM Lowisko";
@@ -22,7 +22,7 @@
                 echo "" . $row["id"]. "". $row["Ryby_id"]. "" .$row["akwen"].""$row["akwen"]."".$row["wojewodstwo"]."".$row["rodzaj"]
             }
         $conn->close();
-    }
+    }}
 
 
 ?>
