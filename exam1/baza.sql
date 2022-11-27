@@ -55,7 +55,8 @@ Values(
 1,'2017-07-04',4,'111222333')
 GO
 
-SELECT nazwa, cena FROM dania WHERE typ = 3
+SELECT nazwa, cena 
+FROM dania WHERE typ = 3
 
 Select nazwa from dania
 Where cena <15
