@@ -7,14 +7,14 @@ GO
 
 
 CREATE table Ryby (
-  id int Identity(1,1) primary key ,
+  id int Identity(1,1) NOT NULL  primary key ,
   nazwa varchar(100) ,
   wystepowanie varchar(100),
   styl_zycia int,
 );
 
 CREATE table Okres_ochronny (
-    id int Identity(1,1) primary key,
+    id int Identity(1,1)  NOT NULL primary key,
     Ryby_id int,
     od_miesiaca int,
     do_miesiaca int,
@@ -23,7 +23,7 @@ CREATE table Okres_ochronny (
 );
 
 CREATE table Lowisko (
-    id int Identity(1,1) primary key ,
+    id int Identity(1,1) NOT NULL primary key ,
     Ryby_id int,
     akwen varchar(100),
     wojewodztwo varchar(100) ,
