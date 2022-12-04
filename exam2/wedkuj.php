@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styl_1.css">
+    <link rel="stylesheet" href="styl_2.css">
     <title>Wędkowanie</title>
 </head>
 <body>
@@ -22,10 +22,16 @@
             <div class="left1">
 
                 <h3>Ryby zamieszkujące rzeki</h3>
+
+                <ol type="1">
+
                 <?php
                 require_once  'php.php';
                 Skrypt1();
                 ?>
+
+                </ol>
+
             </div>
 
 
@@ -43,6 +49,7 @@
                 <?php
                 require_once  'php.php';
                 Skrypt2();
+                Closed();
                 ?>
             </div>
         </div>
