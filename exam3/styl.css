@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.Container{
+
+    display: flex;
+
+}
+
+.Baner{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    background-color: #E8C84E;
+    font-size: 130%;
+    text-align: center;
+
+
+}
+
+.Lewy{
+    background-color: #FFB544;
+    height: 500px;
+    width: 40%;
+    font-size: 130%;
+    margin:0px;
+}
+
+.Lista{
+    background-color: #FFAA00;
+    padding-top: 30px;
+
+
+}
+.Lista li{
+    background-color: #FFAA00;
+    padding-top: 30px;
+    
+
+}
+
+.Prawy{
+    background-color: #FFB544;
+    height: 500px;
+    width: 30%;
+    font-size: 130%;
+    text-align: center;
+    margin:0px;
+}
+
+.Srodkowy{
+    height: 500px;
+    width: 30%;
+    text-align: center;
+    margin:0px;
+}
+
+.Stopka{
+    background-color: #E8C84E;
+    height: 50px;
+    text-align: right;
+    padding:10px;
+    margin:0px;
+
+}
+h3{
+    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.Obraz{
+    margin-top: 50px;
+}
+
+.Form{
+    padding-bottom: 100px;
+}

@@ -1,0 +1,1 @@
+SELECT  `Nazwa` ,count(`Nazwa`) as 'ilosc' FROM `dostawcy` GROUP BY `Nazwa` 

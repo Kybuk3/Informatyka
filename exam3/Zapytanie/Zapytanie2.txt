@@ -1,0 +1,1 @@
+SELECT d.cena  FROM `towary` t JOIN `dostawcy` d ON t.id=d.IdDostawcy Where t.Nazwa='cienkopis'
