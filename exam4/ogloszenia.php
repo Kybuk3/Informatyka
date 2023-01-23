@@ -35,12 +35,12 @@
             <tr>
                 <td>11 - 50</td>
                 <td>0.80 PLN</td>
-                <td></td>
+
             </tr>
             <tr>
                 <td>51 i więcej</td>
                 <td>0.60 PLN</td>
-                <td></td>
+
             </tr>
         </table>
     </div>
